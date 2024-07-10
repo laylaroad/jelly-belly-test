@@ -1,4 +1,4 @@
-# Beans Website
+# Beans Project
 
 This project is a website dedicated to beans, providing information about different types of beans, their recipes, combinations, and fun facts.
 
@@ -19,10 +19,10 @@ This project is a website dedicated to beans, providing information about differ
 
 ## Setup Instructions
 
-To run this project locally, follow these steps:
+To run this project use these shell commands:
 
-1. Clone the repository: `git clone https://github.com/your-username/beans-website.git`
-2. Navigate to the project directory: `cd jelly-belly-test`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
-5. Open your browser and visit: `http://localhost:3000`
+1. `git clone https://github.com/laylaroad/jelly-belly-test.git`
+2. `cd jelly-belly-test`
+3.  `npm install`
+4.   `npm start`
+5. The open the browser and visit: `http://localhost:3000`
