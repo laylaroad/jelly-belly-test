@@ -25,4 +25,4 @@ To run this project use these shell commands:
 2. `cd jelly-belly-test`
 3.  `npm install`
 4.   `npm start`
-5. The open the browser and visit: `http://localhost:3000`
+5. Open the browser and visit: `http://localhost:3000`
