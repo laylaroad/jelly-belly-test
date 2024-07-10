@@ -1,0 +1,29 @@
+.homeContainer {
+  max-width: 1280px;
+  margin: 50px;
+  padding: 40px;
+  text-align: center;
+  color: rgb(77, 31, 31);
+  display: flex;
+  justify-content: center;
+  font-family: "ZillaSlab", sans-serif;
+}
+
+.homeParagraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
+}
+
+.homeTitle {
+  font-size: 36px;
+  margin: 100px 15px 10px 5px;
+}
+
+.homeDescription {
+  font-size: 18px;
+  line-height: 1.6;
+}

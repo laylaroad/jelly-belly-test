@@ -1,0 +1,62 @@
+.beansCombosContainer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.combosTitle {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(119, 35, 35);
+  margin-bottom: 16px;
+  margin-left: 20px;
+}
+
+.combosList {
+  list-style-type: none;
+  padding: 20px;
+  column-gap: 15px;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
+.combosItem {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  color: rgb(119, 35, 35);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.combosItem:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease-in-out;
+}
+
+.itemTitle {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.itemText {
+  margin: 0;
+}
+
+.loading {
+  text-align: center;
+  margin: 150px auto;
+}
+
+.error {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffcccc;
+  border: 1px solid #ff0000;
+  border-radius: 8px;
+  color: #ff0000;
+  font-size: 1.2rem;
+}

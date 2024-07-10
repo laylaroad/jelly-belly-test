@@ -1,0 +1,62 @@
+.beanFactsContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.factTitle {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(119, 35, 35);
+}
+
+.factList {
+  list-style-type: none;
+  padding: 0;
+  column-gap: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.factItem {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  color: rgb(119, 35, 35);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.factItem:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease-in-out;
+}
+
+.factTitle {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.factDescription {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: rgb(77, 31, 31);
+}
+
+.loading {
+  text-align: center;
+  margin: 150px auto;
+}
+
+.error {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffcccc;
+  border: 1px solid #ff0000;
+  border-radius: 8px;
+  color: #ff0000;
+  font-size: 1.2rem;
+}

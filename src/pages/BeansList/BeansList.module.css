@@ -1,0 +1,76 @@
+.listContainer {
+  padding: 20px;
+  max-width: 1280px;
+  margin: 0 auto;
+  color: rgb(77, 31, 31);
+}
+
+.listTitle {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(119, 35, 35);
+}
+
+.list {
+  list-style: none;
+  column-gap: 15px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: rgb(119, 35, 35);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.listItem:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.details {
+  flex: 1;
+}
+
+.flavorName {
+  font-size: 1.5rem;
+  color: rgb(119, 35, 35);
+  margin: 0 0 10px;
+  padding: 10px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+}
+
+.loading {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.error {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffcccc;
+  border: 1px solid #ff0000;
+  border-radius: 8px;
+  color: #ff0000;
+  font-size: 1.2rem;
+}

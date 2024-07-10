@@ -1,0 +1,8 @@
+@import "./fonts/Fonts.css";
+
+body {
+  margin: 0;
+  font-family: "ZillaSlab", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
